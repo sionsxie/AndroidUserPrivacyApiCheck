@@ -22,7 +22,7 @@ public class JavaTest {
             add("1111");
             add("2222");
         }};
-        String[] aaaa = pp.toArray(new String[pp.size()]);
+        Object[] aaaa = pp.toArray(new String[0]);
         ttt(aaaa);
 
         System.out.println(JavaTest.class.getName());

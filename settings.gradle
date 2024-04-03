@@ -1,2 +1,8 @@
 include ':app'
-rootProject.name = "XposedTest"
+rootProject.name = "Xposed隐私api调用检测"
+
+include ':WebViewHookModule'
+rootProject.name = "WebView Debug"
+
+include ':XDebuggableModule'
+rootProject.name = "全局开启Debug"

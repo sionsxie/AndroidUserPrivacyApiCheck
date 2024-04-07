@@ -16,12 +16,18 @@
             </intent-filter>
         </activity>
 
+        <!--//告诉xposed框架这是一个xposed模块-->
         <meta-data
             android:name="xposedmodule"
             android:value="true" />
+        <!--//给模块添加描述信息-->
         <meta-data
             android:name="xposeddescription"
             android:value="隐私api调用检测" />
+        <!--<meta-data
+            android:name="xposedminversion"
+            android:value="82" />-->
+        <!--//支持的最低的xposed版本-->
         <meta-data
             android:name="xposedminversion"
             android:value="53" />
